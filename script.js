@@ -11,16 +11,20 @@ function slideClick() {
 
   en.click(function(){
 
-    // removeOpenMenu();
+    removeOpenMenu();
     var me = $(this);
-    me.siblings(".m-r-i").slideToggle();
+    if (me.siblings(".m-r-i").is(":hidden")) {
+      me.siblings(".m-r-i").slideToggle();
+    }
   });
 
   help.click(function(){
 
-    // removeOpenMenu();
+    removeOpenMenu();
     var me = $(this);
-    me.siblings(".m-r-ii").slideToggle();
+    if (me.siblings(".m-r-ii").is(":hidden")) {
+      me.siblings(".m-r-ii").slideToggle();
+    }
   });
 }
 
