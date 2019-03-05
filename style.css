@@ -54,7 +54,7 @@ h4 {
   border-radius: 10px;
   position: absolute;
   top: 22px;
-  right: 137px;
+  right: 140px;
   display: none;
 }
 
@@ -71,10 +71,9 @@ h4 {
 }
 
 .m-r-ii {
-  margin-right: 36px;
   position: absolute;
   top: 80px;
-  right: 256px;
+  right: 280px;
   display: none;
 }
 
